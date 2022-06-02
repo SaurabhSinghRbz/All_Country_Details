@@ -38,6 +38,11 @@ p>span {
     #continent_select {
         max-width: 100%;
     }
+
+    #container {
+        width: 80%;
+        height: auto;
+    }
 }
 
 /* 
