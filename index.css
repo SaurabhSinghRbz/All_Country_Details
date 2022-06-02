@@ -43,13 +43,16 @@ p>span {
 }
 
 #countryLink {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: lighter;
 
 }
 
 #container>:last-child {
     text-align: right;
 }
+
+
 
 @media all and (min-width: 100px) and (max-width: 480px) {
     #continent_select {
@@ -61,6 +64,8 @@ p>span {
         width: 80%;
         height: auto;
     }
+
+
 
     /* #container div {
         color: red;

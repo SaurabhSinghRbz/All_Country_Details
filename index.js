@@ -526,7 +526,8 @@ function findContinent() {
     if (val == "") {
         alert('Please select the country first.')
     } else {
-        document.getElementById('countryLink').innerHTML = "more details about " + val;
+        // document.getElementById('handIcon').style.visibility = 'visible'
+        document.getElementById('countryLink').innerHTML = "👉 more details about " + val;
         countries.forEach(function (ele) {
             if (ele.name == val) {
                 let n = +(ele.id)
