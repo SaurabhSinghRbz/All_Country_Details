@@ -520,13 +520,15 @@ countries.forEach(option =>
     )
 );
 
-
 document.querySelector('#findButton').addEventListener('click', findContinent);
 function findContinent() {
     let val = document.getElementById('continent_select').value;
     if (val == "") {
         alert('Please select the country first.')
     } else {
+        // $("#moreButton").show();
+        document.getElementById("moreButton").style.visibility = "visible"
+        document.getElementById('moreButton').innerHTML = "More About " + val;
         countries.forEach(function (ele) {
             if (ele.name == val) {
                 let n = +(ele.id)

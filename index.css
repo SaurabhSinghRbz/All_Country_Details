@@ -34,6 +34,17 @@ p>span {
     color: blue;
 }
 
+
+
+#clickOnIt {
+    display: flex;
+    justify-content: center;
+}
+
+#moreButton {
+    visibility: hidden;
+}
+
 @media all and (min-width: 100px) and (max-width: 480px) {
     #continent_select {
         max-width: 100%;
