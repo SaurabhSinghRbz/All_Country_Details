@@ -529,9 +529,12 @@ function findContinent() {
         // $("#moreButton").show();
         document.getElementById("moreButton").style.visibility = "visible"
         document.getElementById('moreButton').innerHTML = "More About " + val;
+        
         countries.forEach(function (ele) {
             if (ele.name == val) {
                 let n = +(ele.id)
+
+                document.getElementById("countryLink").href = ele.address
                 document.getElementById('background').style.backgroundImage = flags[n - 1]
 
                 document.getElementById('countryName').innerText = ele.name
@@ -547,6 +550,11 @@ function findContinent() {
             }
         })
     }
+}
+
+
+function goToWikipedia() {
+
 }
 
 function fun() {
