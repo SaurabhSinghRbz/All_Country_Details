@@ -40,10 +40,13 @@ body>div {
     margin-top: 0%;
     margin-bottom: 0%;
     padding: 5px;
+    font-size: large;
+    font-weight: bold;
 }
 
 p>span {
-    color: blue;
+    color: rgb(255, 0, 119);
+    font-weight: lighter;
 }
 
 #clickOnIt {
