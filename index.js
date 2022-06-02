@@ -513,7 +513,7 @@ var flags = [
     'url(./flags/252.jpg)',
 ]
 
-let optionList = document.getElementById('continent_select').options;
+let optionList = document.getElementById('country_select').options;
 countries.forEach(option =>
     optionList.add(
         new Option(option.name)
@@ -522,7 +522,7 @@ countries.forEach(option =>
 
 document.querySelector('#findButton').addEventListener('click', findContinent);
 function findContinent() {
-    let val = document.getElementById('continent_select').value;
+    let val = document.getElementById('country_select').value;
     if (val == "") {
         alert('Please select the country first.')
     } else {
