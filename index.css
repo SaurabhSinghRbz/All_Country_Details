@@ -25,9 +25,11 @@ body>div {
 }
 
 #container>p {
-    margin: 0%;
+    margin-left: 10%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     padding: 5px;
-    text-align: center;
+
 }
 
 p>span {
@@ -41,8 +43,13 @@ p>span {
     justify-content: center;
 }
 
-#moreButton {
-    visibility: hidden;
+#countryLink {
+    font-size: 15px;
+
+}
+
+#container>:last-child {
+    text-align: right;
 }
 
 @media all and (min-width: 100px) and (max-width: 480px) {
