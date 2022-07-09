@@ -5,6 +5,11 @@ body>div {
     align-items: center;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 #container {
     height: auto;
     width: 30%;
