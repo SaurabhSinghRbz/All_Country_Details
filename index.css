@@ -10,6 +10,12 @@ body>div {
     padding: 0px;
 }
 
+#background {
+    height: auto;
+    width: 100%;
+    padding: 21% 0px;
+}
+
 #container {
     height: auto;
     width: 30%;
@@ -155,12 +161,20 @@ button:hover {
 
 /* -------------------------- */
 
-@media all and (min-width: 100px) and (max-width: 480px) {
-    #country_select {
-        max-width: 100%;
-        height: 25px;
+@media all and (min-width: 510px) and (max-width: 850px) {
+    #container {
+        width: 50%;
+        height: auto;
     }
 
+    button {
+        border: 2px solid black;
+        padding: 9% 24%;
+    }
+}
+
+
+@media all and (min-width: 300px) and (max-width: 509px) {
     #container {
         width: 80%;
         height: auto;
@@ -168,6 +182,36 @@ button:hover {
 
     button {
         border: 1.5px solid black;
-        padding: 8% 22%;
+        padding: 7% 20%;
+    }
+}
+
+@media all and (max-width: 299px) {
+    #container {
+        width: 80%;
+        height: auto;
+    }
+
+
+
+    #container div {
+        font-size: 20px;
+    }
+
+    #clickOnIt {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #clickOnIt>div {
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    button {
+        border: 1px solid black;
+        padding: 8% 15%;
+        margin: auto;
     }
 }
