@@ -137,6 +137,24 @@ button:hover {
     /* drop shadow 2 */
 }
 
+/* for background image ---> */
+@keyframes animatedBackground {
+    from {
+        background-position: 0 100%;
+    }
+
+    to {
+        background-position: 100% 0;
+    }
+}
+
+#background {
+    background-repeat: 0 0;
+    animation: animatedBackground 21s linear infinite alternate;
+}
+
+/* -------------------------- */
+
 @media all and (min-width: 100px) and (max-width: 480px) {
     #country_select {
         max-width: 100%;
@@ -152,20 +170,4 @@ button:hover {
         border: 1.5px solid black;
         padding: 8% 22%;
     }
-}
-
-
-@keyframes animatedBackground {
-    from {
-        background-position: 0 100%;
-    }
-
-    to {
-        background-position: 100% 0;
-    }
-}
-
-#background {
-    background-repeat: 0 0;
-    animation: animatedBackground 15s linear infinite alternate;
 }
