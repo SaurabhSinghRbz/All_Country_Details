@@ -11,14 +11,12 @@ body>div {
 }
 
 #background {
-    height: auto;
     width: 100%;
-    padding: 21% 0px;
 }
 
 #container {
     height: auto;
-    width: 30%;
+    width: 35%;
     border-radius: 40px;
     padding: 15px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -161,14 +159,13 @@ button:hover {
 
 /* -------------------------- */
 
-@media all and (min-width: 510px) and (max-width: 850px) {
+@media all and (min-width: 510px) and (max-width: 800px) {
     #container {
         width: 50%;
         height: auto;
     }
 
     button {
-        border: 2px solid black;
         padding: 9% 24%;
     }
 }
@@ -176,12 +173,11 @@ button:hover {
 
 @media all and (min-width: 300px) and (max-width: 509px) {
     #container {
-        width: 80%;
+        width: 75%;
         height: auto;
     }
 
     button {
-        border: 1.5px solid black;
         padding: 7% 20%;
     }
 }
@@ -191,8 +187,6 @@ button:hover {
         width: 80%;
         height: auto;
     }
-
-
 
     #container div {
         font-size: 20px;
@@ -210,8 +204,12 @@ button:hover {
     }
 
     button {
-        border: 1px solid black;
         padding: 8% 15%;
         margin: auto;
+    }
+
+    #background {
+        padding: 21% 0px;
+        height: auto;
     }
 }
