@@ -180,6 +180,11 @@ button:hover {
     button {
         padding: 7% 20%;
     }
+
+    #background {
+        padding: 21% 0px;
+        height: auto;
+    }
 }
 
 @media all and (max-width: 299px) {
