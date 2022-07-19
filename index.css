@@ -44,6 +44,11 @@ body>div {
     overflow: hidden;
 }
 
+#country_select:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
 #container>p {
     margin-left: 6%;
     margin-top: 0%;
