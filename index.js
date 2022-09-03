@@ -1,6 +1,3 @@
-// for falgs --> https://history.state.gov/countries/all
-// image border adder url --> https://www.tuxpi.com/photo-effects/borders
-
 // All countries
 // length 252
 var countries = [
